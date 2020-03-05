@@ -253,12 +253,3 @@ for k in range(0, 1699):
             L = 'File {}, {} # classified as {}\n'.format(FileN[k], int(pred_test[k]), lab.replace('\n',''))
         fwrite.write(L)
 fwrite.close()
-
-
-# In[3]:
-
-
-sel_mfcc = 'select.mfcc_test'
-fread = open('select_mfcc_higher/{}.csv'.format(sel_mfcc),'r')
-len(fread.readlines())
-
