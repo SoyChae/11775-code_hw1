@@ -432,20 +432,3 @@ for k in range(0, 1699):
             L = 'File {}, {} # classified as {}\n'.format(FileN[k], int(pred_test[k]), lab.replace('\n',''))
         fwrite.write(L)
 fwrite.close()
-
-
-# In[ ]:
-
-
-os
-
-
-# In[ ]:
-
-
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/SoyChae/11775_code-hw1.git
-git push -u origin master
-
