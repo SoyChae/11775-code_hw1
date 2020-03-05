@@ -362,13 +362,8 @@ video_lab = np.unique(feature_lab)
 Nvideo = len(np.unique(feature_lab))
 
 
-# In[11]:
-
-
-f_lab = open('select_mfcc_higher/{}.csv'.format('mfccLabel_test'))
-feature_lab = f_lab.read().replace('\n',' ').split()
-video_lab = np.unique(feature_lab)
-Nvideo = len(np.unique(feature_lab))
+fopen = open('centroid_mfcc.csv','r')
+centroid = fopen.read().replace('\n',' ').split()
 centroid_ = []
 centroid_ = [int(centroid[i]) for i in range(0, len(centroid))]
 centroid_ = np.asarray(centroid_)
