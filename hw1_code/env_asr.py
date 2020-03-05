@@ -29,13 +29,6 @@ def extrYesSoundN(fileN):
 
 # In[ ]:
 
-
-import os
-os.system('pip install gitpython')
-import git
-git.Git("/").clone("https://github.com/SoyChae/11775_code-hw1.git")
-
-
 # In[1]:
 
 
